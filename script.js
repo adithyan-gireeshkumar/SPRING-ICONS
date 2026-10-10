@@ -1,4 +1,4 @@
-import gsap from "./node_modules/gsap/index.js";
+import { gsap } from "gsap";
 
 const cards = [...document.querySelectorAll(".card")];
 const spotlight = document.querySelector(".spotlight");
